@@ -1,0 +1,89 @@
+﻿/*
+
+    This stylesheet is for WebForm1
+
+*/
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size:12px;
+    font-weight:normal;
+
+    line-height:1.6em;
+    margin:0;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+#main-header{
+    background-color:coral;
+    color:#fff;
+}
+
+.box-1{
+    background-color:#333;
+    color:#fff;
+    border:dotted;
+    padding:20px;
+}
+.box-1 label{
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+
+}
+
+.box-2{
+    background-color:#333;
+    color:#fff;
+    border:dotted 3px red solid;
+    padding-left:10px;
+}
+.box-2 thead{
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+}
+.box-2 tbody{
+    font-size:12px;
+}
+
+.box-3{
+    border:1px #ff3c3c solid;
+    border-radius:15px;
+    padding:10px;
+    background-color:#333;
+    color:#fff;
+}
+.box-3 thead {
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.box-3 tbody{
+    font-size:12px;
+}
+.box-4 {
+    background-color: #333;
+    color: #fff;
+    border: dotted 3px red solid;
+    padding-left: 10px;
+}
+.box-4 th {
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-left:50px;
+}
